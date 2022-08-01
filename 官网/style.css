@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maxbox{
+    width: 1530px;
+    margin: 0 auto;
+}
+.topcut{
+  width: 1520px;
+  background-color: rgb(30,37,43);
+}
+.pic1{
+    display: inline-block;
+    object-fit: fill;
+    background-image: url(image/logo.png);
+    width: 70px;
+    height: 30px;
+    background-size: 100% 100%;
+    border:0px;
+}
+.pic2{
+    display: inline-block;
+    object-fit: fill;
+    background-image: url(image/自吹.png);
+    width: 395px;
+    height: 30px;
+    background-size: 100% 100%;
+    border:0px;
+}
+
+.topcutright{
+    width: 335px;
+    list-style-type:none;
+    float: right;
+    height: 30px;
+}
+.topcuta{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 12px;
+    color:rgb(150, 155,159);
+    text-decoration: none;
+    margin-right: 5px;
+}
+.topcuta:hover{
+    color:white;
+}
+.bgbox{
+    position: relative;
+    background-image: url(image/顶部背景.jpg);
+    background-size: auto 100%;
+    background-position-x: -200px;
+    width: 1520px;
+    height: 780px;
+    }
+.middlecut{
+    padding-left: 300px;
+ 
+    height: 50px;
+    list-style-type: none;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}    
+.middlecut_hei{
+    background-image: url(image/middlecut—高小间隔.png);
+    width: 100px;
+    height: 10px;
+    background-size: 100% 100%;
+}
+.middlecutli{
+    float: left;
+    display: block;
+    width: 100px;
+    height: 50px;
+    z-index: 2;
+    background-size: 100% auto;
+}
+.middlecutli1{
+    overflow:hidden;
+    float: left;
+    width: 100px;
+    height: 50px;
+    z-index: 2;
+    background-size: 100% auto;
+    transition: all 0.3s;
+}
+.middlecutli:hover{
+    background-image: url(image/topcutbg.png);
+}
+.middlecutli1:hover{
+    background-image: url(image/topcutbg.png);
+    background-size: 100% 100%;
+    height:190px;
+
+}
+.middlecutli1 a{
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    text-decoration:none ;
+    cursor: pointer;
+    color:rgb(196,196,189);
+    font-size: 17px;
+}
+.middlecutli a{
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    text-decoration:none ;
+    cursor: pointer;
+    color:rgb(196,196,189);
+    font-size: 17px;
+}
+.middle_title{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+.middle_title1{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+.middle_smalla{
+    width: 100px;
+    height: 26px;
+    line-height: 18px;
+}
+
+.bigrollbox{
+    width: 1100px;
+    height: 315px;
+    position: absolute;
+    top: 450px;
+    left: 225px;
+}
+.rollbox{
+    display: inline-block;
+    width: 650px;
+    height: 310px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.rollpic{
+    transition: left 0.3s;
+width: 650px;
+height: 270px;
+position: absolute;
+background-size: 100% 100%;
+}
+#p1{
+    background-image: url(image/pic1.jpg);
+    left: 0px;
+}
+#p2{
+    background-image: url(image/pic2.jpg);
+    left: 650px;
+}
+#p3{
+    background-image: url(image/pic3.jpg);
+    left: 1300px;
+}
+#p4{
+    background-image: url(image/pic4.jpg);
+    left: 1950px;
+}
+#p5{
+    background-image: url(image/pic5.jpg);
+    left: 2600px;
+}
+.mi_rollchoice{
+    width: 650px;
+    height: 40px;
+    background-color: #E1EBEE;
+    position: absolute;
+    top: 270px;
+    text-align: center;
+}
+.mi_choice{
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+}
+.downloadbox{
+    display: inline-block;
+    width: 400px;
+    height: 310px;
+    position: absolute;
+    top: 0px;
+    left: 680px;
+}
+.downloadbox2{
+    width: 415px;
+    height: 135px;
+    position: relative;
+    top: 0px;
+}
+.download{
+    cursor: pointer;
+    width: 290px;
+    height: 130px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.download video{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.re_ch{
+    cursor: pointer;
+    width: 95px;
+    height: 63px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 295px;
+}
+#re{
+    top: 0px;
+    background-image: url(image/reg_off.png);
+}
+#re:hover{
+    top: 0px;
+    background-image: url(image/reg_on.png);
+}
+#ch{
+    top: 67px;
+    background-image: url(image/chg_off.png);
+}
+#ch:hover{
+    top: 67px;
+    background-image: url(image/chg_on.png);
+}
+.actioncover{
+    width: 395px;
+    height: 170px;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    background-image: url(image/ad_border_cover.png);
+    background-size: 100% 100%;
+}
+.actioncover img{
+    position: relative;
+    left: 4px;
+    top: 4px;
+    width: 98%;
+    height: 95%;
+}
+.thibox{
+    width: 1520px;
+    position: relative;
+    top: 0px;
+    height: 570px;
+}
+.hotbox{
+    width: 700px;
+    height: 272px;
+    position: absolute;
+    left: 220px;
+    top: 30px;
+}
+.hotbox p{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.hotul{
+    position: relative;
+    left: 0px;
+    list-style-type: none;
+}
+.hotul span{
+    font-size: 13px;
+    color:brown;
+
+}
+.hotul li{
+cursor: pointer;
+display: inline-block;
+width: 155px;
+height: 220px;
+margin-right: 10px;
+}
+.hotimg{
+    width: 155px;
+    height: 165px;
+    overflow: hidden;
+}
+.hotimg img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+.hotimg img:hover{
+    transform:scale(1.2,1.2);
+}
+
+.thi_newbox{
+    width: 500px;
+    height: 270px;
+    position: absolute;
+    left: 925px;
+    top: 30px;
+}
+.newchoice{
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(228, 229, 233);
+    text-align: center;
+}
+.newsspan{
+    line-height:35px;
+}
+.rollnewsbox{
+   overflow: hidden;
+    width:400px ;
+    height: 225px;
+    position: absolute;
+    top: 45px;
+
+}
+.rollnewsbox ul{
+    list-style-type:none ;
+}
+.rollnewsbox li{
+    border-bottom:1px solid black ;
+}
+.news_sa{
+    text-decoration: none;
+    width: 295px;
+    font-size: 13px;
+    color: black;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.news_ba{
+    font-weight: bolder;
+    text-decoration: none;
+    width: 275px;
+    font-size: 20px;
+    color: rgb(50, 80, 91);
+    padding-left: 115px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.rollnewsbox span{
+    font-size: 12px;
+    line-height: 30px;
+    margin-right: 0px;
+}
+.morenews{
+    cursor: pointer;
+    width: 395px;
+    height: 30px;
+    background-image: url(image/news_more_off.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 228px;
+    z-index: 2;
+}
+.morenews:hover{
+    background-image: url(image/news_more_on.png);
+}
+.news{
+    transition: all 0.3s;
+}
+
+#news1{
+    position: absolute;
+    left: 0px;
+}
+#news2{
+    position: absolute;
+    left: 400px;
+}
+#news3{
+    position: absolute;
+    left: 800px;
+}
+#news4{
+    position: absolute;
+    left: 1200px;
+}
+.thi_advbox{
+width: 660px;
+height: 210px;
+position: absolute;
+left: 222px;
+top: 340px;
+}
+.adv{
+    cursor: pointer;
+    background-size: 100% 100%;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+#av1{
+    background-image: url(image/信用卡.jpg);
+}
+#av2{
+    background-image: url(image/信用卡2.jpg);
+}
+.adv_cover{
+z-index: 1;   
+top: 160px;
+left: 0px;
+position: absolute;
+width: 300px;
+height: 40px;
+background-color: black;
+opacity: 0.3;
+}
+.span1{
+    opacity: 1;
+    z-index: 2;  
+    position: absolute;
+    top: 160px;
+    color: white;
+}
+.per_advbox{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    top: 0px;
+}
+.per_adv{
+    cursor: pointer;
+    background-size: 100% 100%;
+    width: 190px;
+    height: 95px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.per_adv:hover{
+transform:scale(1.08,1.08) ;
+transition: all 0.3s;
+}
+#per1{
+    background-image:url(image/玲珑锁.jpg)
+}
+#per2{
+    background-image:url(image/客服专区.jpg)
+}
+#per3{
+    background-image:url(image/免费领取.png)
+}
+#per4{
+    background-image:url(image/老玩家回归.jpg)
+}
+.coorbigbox{
+    position: relative;
+    top: 0px;
+    width: 1520px;
+    height: 290px;
+    background-image: url(image/coorbg.jpg);
+    background-size: 100% 100%;
+}
+.coorbox{
+    overflow: hidden;
+    background-color: white;
+    width: 325px;
+    height: 150px;
+    position: absolute;
+    top:80px;
+    left: 120px;
+}
+.coorbox ul{
+    background-color: white;
+    position: absolute;
+    list-style-type: none;
+    z-index: 2;
+}
+.coorroll{
+
+    
+    width: 325px;
+    height: 130px;
+    background-size: 100% 100%;
+    position: absolute;
+    background-color: black;
+}
+#coor1{
+    top: 20px;
+    background-image: url(image/coor1.JPG);
+}
+#coor2{
+    top: 150px;
+    background-image: url(image/coor2.JPG);
+}
+#coor3{
+    top: 280px;
+    background-image: url(image/coo3.JPG);
+}
+.coorbox li{
+    width: 325px;
+    z-index: 2;
+    display: block;
+    height: 20px;
+    border-bottom:1px solid rgb(158, 37, 46); ;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(158, 37, 46);;
+}
+.requirebox{
+    width: 915px;
+    height: 215px;
+    position: absolute;
+    left: 500px;
+    top: 40px;
+    background-image: url(image/配置bg.png);
+    background-size: 100% 100%;
+}
+.requirebox2{
+    width: 420px;
+    height: 188px;
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    font-size: 11px;
+    color: whitesmoke;
+}
+.requirebox2 ul{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.requiretitle{
+    width: 115px;
+    height: 18px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 17px;
+    top: 0px;
+}
+#r_title1{
+    background-image: url(image/台配.png);
+}#r_title2{
+    background-image: url(image/笔配.png);
+}
+
+.tpli{
+    line-height: 28px;
+    border-right:1px solid #bfa885;
+    border-bottom:1px solid #bfa885;
+    cursor: pointer;
+    width: 90px;
+    height: 28px;
+    float: left;
+    font-size: 14px;
+    display: block;
+    color:#bfa885;
+}
+.bpli{
+    line-height: 28px;
+    border-right:1px solid #bfa885;
+    border-bottom:1px solid #bfa885;
+    cursor: pointer;
+    width: 90px;
+    height: 28px;
+    float: left;
+    font-size: 14px;
+    display: block;
+    color:#bfa885;
+}
+.commentbox{
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 365px;
+    height: 128px;
+    position: relative;
+    top: 45px;
+    left: 13px;
+}
+.tpcomment{
+    font-size: 11px;
+    color: white;
+    
+}

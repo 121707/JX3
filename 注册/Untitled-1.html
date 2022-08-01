@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="styleSheet"  href="style.css" />
+</head>
+<body>
+    <div class="topcut"> 
+        <div class="pic1"  ></div>
+        <div class="pic2"></div>
+        <ul class="topcutright">
+            <li>
+                <a class="topcuta" href="file:///D:/VS%20code/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/%E6%9C%9F%E6%9C%AB%E5%A4%A7%E4%BD%9C%E4%B8%9A/%E4%B8%8B%E8%BD%BD/Untitled-1.html">登录</a>
+                <a class="topcuta" href="file:///D:/VS%20code/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/%E6%9C%9F%E6%9C%AB%E5%A4%A7%E4%BD%9C%E4%B8%9A/%E6%B3%A8%E5%86%8C/Untitled-1.html">注册</a>
+                <a class="topcuta" href="file:///D:/VS%20code/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/%E6%9C%9F%E6%9C%AB%E5%A4%A7%E4%BD%9C%E4%B8%9A/%E5%AE%98%E7%BD%91/Untitled-1.html">官网</a>
+                <a class="topcuta" href="">客服</a>
+                <a class="topcuta" href="">老玩家回归</a>
+            </li>
+        </ul>
+    </div>
+    <div class="topbox">
+        <a href="file:///D:/VS%20code/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/%E6%9C%9F%E6%9C%AB%E5%A4%A7%E4%BD%9C%E4%B8%9A/%E5%AE%98%E7%BD%91/Untitled-1.html" class="inbot" id="inbot" ></a>
+    <video   autoplay="autoplay" loop="loop">
+        <source src="image/背景视频.mp4">  
+    </video>
+
+    <div class="register" id="reg">
+        <ul class="choose">
+            <li>
+                <input type="button" class="span1" id="span1" value="手机注册"></input>
+                <input type="button" class="span2" id="span2" value="快速注册"></input>
+            </li>
+           
+        </ul>
+        <div class="reg1" id="reg1">
+            <form action="mailto:1217078825@qq.com" method="POST" enctype="text/plain" id="form1" onsubmit="return jungle1()">
+            <input type="text"  class="numphone" name="手机号" id="numphone1" maxlength="11" value="请输入11位手机号"></input>
+            <div class="textbox">
+                <input type="text" class="textp"  maxlength="6" name="验证码" id="textp1" value="请输入验证码">
+                <input type="button" class="textbot"  name="" id="textbot1" value="点击发送验证码">
+                <input type="text" class="password" name="密码" id="password1" value="密码(8-32位字母/数字/符号组合)">
+                <div style="margin-top:8px;font-size:12px;"><label for=""><input type="checkbox"  name="" id="">我同意金山安全协议</label>></div>
+                <input type="submit" class="submit1" id="submit1"  value="">
+
+            </div>
+        </form>
+        </div>
+        <div class="reg2" id="reg2">
+            <form action="mailto:1217078825@qq.com"method="POST" enctype="text/plain"  onsubmit="return jungle2()">
+                <input type="text"  class="numphone" id="acc"name="账号"  maxlength="18" minlength="4" placeholder="请输入4-18位账号"></input>
+                <input type="text" class="password" id="password2" name="密码" placeholder="密码(8-32位字母/数字/符号组合)">
+                <input type="text"  class="numphone" id="numphone2" name="手机号" maxlength="11" placeholder="请输入11位手机号"></input>
+                <div class="textbox">
+                <input type="text" class="textp" maxlength="6" id="textp2"  placeholder="请输入验证码">
+                <input type="button" class="textbot" name="" id="textbot2" value="点击发送验证码">
+                </div>
+                <div class="privatebox">
+                    
+                    根据国家规定请填写真实身份信息，官方会依法保护您的隐私 <input type="text" name="姓名" style="margin-top:0px;" 
+                    class="numphone" id="name" maxlength="18" value=""  placeholder="请输入你的姓名"></input>
+                    <input type="text"  class="numphone" id="card" name="身份证" maxlength="18" minlength="4" 
+                    placeholder="请输入您的身份证号" ></input>
+
+                </div>
+                <input type="submit" class="submit1" id="submit1" onsubmit="jungle()" value="">
+
+
+            </form>
+
+        </div>
+        <div class="imgbox">
+        <img src="image/不动.png" class="nimg" alt="">
+        <div style="overflow:hidden ;white-space: nowrap;width: 280px; height: 200px;" id="imgbox">
+            <img src="image/动1.png" class="ima" id="ima1" alt="">
+            <img src="image/动4.png" class="ima" id="ima2">
+            <img src="image/动3.png" class="ima" id="ima3"></div>
+       </div>
+    </div>
+        
+    </div>
+
+</body>
+<script type="text/javascript" src="../jquery-3.2.1.min.js"></script>
+<script src="JS.js"></script>
+
+</html>

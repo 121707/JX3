@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maxbox{
+    width: 1530px;
+    margin: 0 auto;
+}
+.topcut{
+  width: 1520px;
+  background-color: rgb(30,37,43);
+}
+.pic1{
+    display: inline-block;
+    object-fit: fill;
+    background-image: url(image/logo.png);
+    width: 70px;
+    height: 30px;
+    background-size: 100% 100%;
+    border:0px;
+}
+.pic2{
+    display: inline-block;
+    object-fit: fill;
+    background-image: url(image/自吹.png);
+    width: 395px;
+    height: 30px;
+    background-size: 100% 100%;
+    border:0px;
+}
+
+.topcutright{
+    width: 335px;
+    list-style-type:none;
+    float: right;
+    height: 30px;
+}
+.topcuta{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 12px;
+    color:rgb(150, 155,159);
+    text-decoration: none;
+    margin-right: 5px;
+}
+.topcuta:hover{
+    color:white;
+}
+.bgbox{
+    border: 0px;
+    position: relative;
+    background-image: url(image/顶部背景.jpg.png);
+    background-size: 100% 100%;
+    
+    width: 1520px;
+    height: 650px;
+    }
+    .middlecut{
+        padding-left: 300px;
+     
+        height: 50px;
+        list-style-type: none;
+        background-color: black;
+        opacity: 0.8;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+    }    
+    .middlecut_hei{
+        background-image: url(image/middlecut—高小间隔.png);
+        width: 100px;
+        height: 10px;
+        background-size: 100% 100%;
+    }
+    .middlecutli{
+        float: left;
+        display: block;
+        width: 100px;
+        height: 50px;
+        z-index: 2;
+        background-size: 100% auto;
+    }
+    .middlecutli1{
+        overflow:hidden;
+        float: left;
+        width: 100px;
+        height: 50px;
+        z-index: 2;
+        background-size: 100% auto;
+        transition: all 0.3s;
+    }
+    .middlecutli:hover{
+        background-image: url(image/topcutbg.png);
+    }
+    .middlecutli1:hover{
+        background-image: url(image/topcutbg.png);
+        background-size: 100% 100%;
+        height:190px;
+    
+    }
+    .middlecutli1 a{
+        display: inline-block;
+        position: relative;
+        top: 0px;
+        text-decoration:none ;
+        cursor: pointer;
+        color:rgb(196,196,189);
+        font-size: 17px;
+    }
+    .middlecutli a{
+        display: inline-block;
+        position: relative;
+        top: 0px;
+        text-decoration:none ;
+        cursor: pointer;
+        color:rgb(196,196,189);
+        font-size: 17px;
+    }
+    .middle_title{
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .middle_title1{
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .middle_smalla{
+        width: 100px;
+        height: 26px;
+        line-height: 18px;
+    }
+    .lunchbox{
+        width: 420px;
+        height: 410px;
+        position: absolute;
+        left: 850px;
+        top: 170px;
+        background-color: rgb(88, 87, 86);
+        opacity: 0.7;
+    }
+
+    .lunch{
+        padding-left: 38px;
+        padding-top: 75px;
+        width: 420px;
+        height: 340px;
+        position: absolute;
+        left: 850px;
+        top: 170px;
+    }
+    .num{
+        border: none;
+position: relative;
+top: 32px;
+padding-left: 55px;
+width: 280px;
+height: 50px;
+color: black;
+background-color: #eae2c8;
+    }
+    .pass{
+        border: none;
+position: relative;
+top: 65px;
+padding-left: 55px;
+width: 280px;
+height: 50px;
+color: black;
+background-color: #eae2c8;
+    }
+.re_bot{
+font-size: 30px;
+cursor: pointer;
+text-decoration:none ;
+display: block;
+position: relative;
+top: 100px;
+padding-left: 55px;
+width: 280px;
+height: 50px;
+color: wheat;
+background-color: rgb(183, 41, 40);
+
+    }
+.self_way{
+    background-image: url(image/门派背景.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 0px;
+    border: 0px;
+    width: 1520px;
+    height: 450px;
+}
+.self_top{
+    background-color: white;
+    width: 925px;
+    height: 235px;
+    position: relative;
+    top: 0px;
+    left: 320px;
+}
+.self_buttom{
+    
+    background-color: white;
+    width: 925px;
+    height: 215px;
+    position: relative;
+    top: 0px;
+    left: 320px;
+}
+.waybox{
+    cursor: pointer;
+    padding-left: 10px;
+    float: left;
+    text-align: center;
+    padding-top: 45px;
+    width: 170px;
+    height: 170px;
+}
+.waybox:hover{
+color:rgb(25, 19, 114)     ;
+}
+.self_way span{
+    font-size: 12px;
+    color: rgb(106,106, 106);
+    position: relative;
+    top: 10px;
+}
+.self_way p{
+    font-weight: bold;
+}
+.help{
+    cursor: pointer;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+    width: 217px;
+    height: 190px;
+    z-index: 1;
+}
+
+.help_cover{
+    opacity: 1;
+    
+    transform: rotateX(0deg);
+    transition: all 0.8s;
+    background-color: white;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    width: 217px;
+    height: 190px;
+    z-index: 3;
+}
+.help_cover:hover{
+    transform: rotateX(50deg); 
+    opacity: 0;
+}
+#co1{
+    left: 0px;
+}
+#co2{
+    left: 217px;
+}
+#co3{
+    left: 434px;
+}
+#co4{
+    left: 680px;
+}
+.help_cover p{
+font-weight: normal;
+font-size: 17px;
+color: #0390cc;
+}
+.foot{
+    cursor: pointer;
+    width: 1520px;
+    height: 165px;
+    background-image: url(image/footer.png);
+    background-size: 100% 100%;
+}

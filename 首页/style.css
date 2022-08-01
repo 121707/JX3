@@ -1,0 +1,504 @@
+*{
+    scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+}
+
+.maxbox{
+    width: 1520px;
+    margin: auto;
+}
+.topcut{
+    width: 1520px;
+    background-color: rgb(30,37,43);
+}
+.pic1{
+    display: inline-block;
+    object-fit: fill;
+    background-image: url(image/logo.png);
+    width: 70px;
+    height: 30px;
+    background-size: 100% 100%;
+    border:0px;
+}
+.pic2{
+    display: inline-block;
+    object-fit: fill;
+    background-image: url(image/自吹.png);
+    width: 395px;
+    height: 30px;
+    background-size: 100% 100%;
+    border:0px;
+}
+
+.topcutright{
+    width: 335px;
+    list-style-type:none;
+    float: right;
+    height: 30px;
+}
+.topcuta{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 12px;
+    color:rgb(150, 155,159);
+    text-decoration: none;
+    margin-right: 5px;
+}
+.topcuta:hover{
+    color:white;
+}
+
+.bgbox{
+margin-top: 0;
+width: 1520px;
+height: 700px;
+}
+.bgbox video{
+width: 100%;
+}
+.inbot{
+    display: block;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 1300px;
+    top: 95px;
+    background-image: url(image/进入官网.png);
+    cursor: pointer;
+    background-size: 100%;
+}
+.inbot:hover{
+    background-position-y: 100%;
+}
+.newedit{
+    position: absolute;
+    top: 626px;
+    height: 660px;
+    width: 1520px;
+    background-image: url(image/月满归乡.jpg);
+    background-size: 100%;
+    z-index: 5;
+}
+.space{
+    width: 1520px;
+    height: 550px;
+}
+
+.rollbox{
+position: relative;
+top: 0;
+left: 0;
+width: 1520px;
+background-image: url(image);
+}
+.xfe{
+    margin-top: 460px;
+    margin-left: 230px;
+    width: 1020px;
+    height: 200px;
+    background-image: url(image/xfe-layer-22-1b92ed12.png);
+    background-size: 100% 100%;
+}
+.videoroll{
+    width: 1520px;
+    height: 570px;
+}
+.videoroll video{
+    width: 100%;
+    height: 100%;
+}
+.choicebox{
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    top: -15px;
+    left: 200px;
+}
+.choice{
+    position: relative;
+    top: 0;
+    margin-right: 8px;
+    display: inline-block;
+    width:32px;
+    height: 223px;
+    background-image: url(image/转场按钮.png);
+    cursor: pointer;
+    transition: top 0.3s;
+}
+#zy{
+   background-position:0 18px ;
+}
+#xj{
+    background-position:-50px 18px ;
+ }
+ #gy{
+    background-position:-95px 18px ;
+ }
+ #sl{
+    background-position:-141px 18px ;
+ }
+ #hh{
+    background-position:-188px 18px ;
+ }
+#sc{
+   background-position:-235px 18px ;
+}
+.introbox{
+    background-image: url(image/门派背景.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 1520px;
+    height: 710px;
+}
+
+.introtitle{
+    position: absolute;
+    top: 28px;
+    left:  230px;
+    width: 1050px;
+    height: 180px;
+    background-image: url(image/门派标题.png);
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.playwaytitle{
+    position: absolute;
+    left:  230px;
+    width: 1050px;
+    height: 180px;
+    background-size: 100% 100%;
+    background-image: url(image/多样玩法.png);
+    top: 15px;
+}
+.introroll{
+    transition: opacity 1s ;
+    z-index: 2;
+    position:absolute;
+    top: 175px;
+    left: 235px;   
+    width: 1050px;
+    height: 410px;
+    background-size: 100% 100%;
+}
+.introchoicebox{
+    
+    background-position-y: 0px;
+    width: 1065px;
+    height: 32px;
+    position: absolute;
+    top: 595px;
+    left: 230px;
+}
+.introchoice{
+    cursor: pointer;
+    z-index: 2;
+    width: 71px;
+    height: 32px;
+    float: left;
+    background-image: url(image/门派选项123.png);
+}
+.playwaybox{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1520px;
+    height: 758px;
+    background-image: url(image/轻工背景.jpg);
+    background-size: 100% 100%;
+}
+.playvideoa{
+    
+    width: 1060px;
+    height: 500px;
+    position: absolute;
+    left: 230px;
+    top: 200px;
+    z-index: 4;
+    cursor: pointer;
+}
+.playvideobox{
+    width: 1060px;
+    height: 500px;
+    position: absolute;
+    left: 230px;
+    top: 200px;
+    z-index: 1;
+}
+.videobot{
+    z-index: 3;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 708px;
+    top: 400px;
+}
+#roge{
+    background-image: url(image/播放圈圈.png);
+    background-size: 100% 100%;
+    transform:rotate(0deg);
+    -webkit-animation:changeright 2.5s linear infinite;
+  
+}
+@-webkit-keyframes changeright{       
+		 
+    0%{-webkit-transform:rotate(0deg);}
+
+    50%{-webkit-transform:rotate(180deg);}
+
+    100%{-webkit-transform:rotate(360deg);}
+}
+
+#play{
+    background-image: url(image/播放.png);
+    background-size: 100% 100%;
+}
+.playvideobox video{
+    width: 100%;
+    height: 100%;
+}
+#choicelx{
+background-position-x: -0;
+}
+#choicepl{
+    background-position-x: -70px ;
+    }
+#choicebd{
+    background-position-x: -140px ;
+ } 
+ #choicecg{
+    background-position-x: -210px ;
+} 
+#choicecy{
+    background-position-x: -280px ;
+} 
+#choicegb{
+    background-position-x: -350px ;
+} 
+#choicemj{
+    background-position-x: -420px ;
+} 
+#choicetm{
+    background-position-x: -490px ;
+} 
+#choicewd{
+    background-position-x: -560px ;
+} 
+#choicecj{
+    background-position-x: -630px ;
+} 
+#choicetc{
+    background-position-x: -700px ;
+} 
+#choicejc{
+    background-position-x: -770px ;
+} 
+#choicehs{
+    background-position-x: -840px ;
+} 
+#choiceqx{
+    background-position-x: -910px ;
+} 
+#choicewh{
+    background-position-x: -980px ;
+}  
+
+#cy{
+    background-image: url(image/苍云-b1e24c87.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#lx{
+    background-image: url(image/凌雪5c.png.webp);
+    background-size: 100% 100%;
+    opacity: 1;
+}
+#pl{
+    background-image: url(image/蓬莱.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#bd{
+    background-image: url(image/霸刀-f3ca2a29.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#cg{
+    background-image: url(image/长歌3cd0228.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#gb{
+    background-image: url(image/丐帮g-8345b6ff.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#mj{
+    background-image: url(image/明教-fe3cec13.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#tm{
+    background-image: url(image/唐门.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#tc{
+    background-image: url(image/天策.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#cj{
+    background-image: url(image/藏剑.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#wd{
+    background-image: url(image/五毒bg-defe1f22.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#qx{
+    background-image: url(image/七秀89c43.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#wh{
+    background-image: url(image/万花a.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#jc{
+    background-image: url(image/纯阳b9d502ff.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+#hs{
+    background-image: url(image/秃子g-8325c000.png.webp);
+    background-size: 100% 100%;
+    opacity: 0;
+}
+
+.footbox{
+    position: relative;
+    width: 1520px;
+    height: 800px;
+    background-image: url(image/页脚背景.jpg);
+    background-size: 100% 100%;
+}
+.foottitle{
+    width: 800px;
+    height: 210px;
+    background-image: url(image/大美江湖.png);
+    background-size: 100% 100%;
+    position: relative;
+    top: 120px;
+    left: 355px;
+}
+.footbot{
+    cursor: pointer;
+    width: 210px;
+    height: 52px;
+    background-size: 100% ;
+}
+#download{
+    background-image: url(image/下载游戏.png);
+    background-position-y: 0px;
+    position: relative;
+    left: 505px;
+    z-index: 10;
+    top: 145px;
+}
+#register{
+    background-image: url(image/注册账号.png);
+    background-position-y: 0px;
+    position: relative;
+    left: 850px;
+    z-index: 10;
+    top: 95px;
+}
+.ewm{
+    width: 1070px;
+    height: 165px;
+    position: relative;
+    top:215px;
+    left: 240px;
+    background-image: url(image/二维码.png);
+    background-size: 100% 100%;
+}
+
+.notclick{
+    pointer-events: none;
+  }
+/*
+#zy:hover{
+    background-position:-308px 1px ;
+    top: 18px;
+    transition: top 0.3s;
+ }
+
+ #xj:hover{
+    background-position:-357px 1px ;
+    top: 18px;
+    transition: top 0.3s;
+ }
+ 
+ #gy:hover{
+    background-position:-403px 1px ;
+    top: 18px;
+    transition: top 0.3s;
+ }
+
+ #sl:hover{
+    background-position:-449px 1px ;
+    top: 18px;
+    transition: top 0.3s;
+ }
+ #hh:hover{
+    background-position:-496px 1px ;
+    top: 18px;
+    transition: top 0.3s;
+ }
+ #sc:hover{
+    background-position:-544px 1px ;
+    top: 18px;
+    transition: top 0.3s;
+ }
+*/
+.transbox{
+    left: 10px;
+    top: 65px;
+position: fixed;
+width: 80px;
+height: 460px;
+z-index: 10;
+}
+.transa{
+    display: block;
+    width: 80px;
+    height: 92px;
+    background-position-x: -7px;
+    background-image: url(image/锚点.png);
+}
+.transa:hover{
+    background-position-x: -102px;
+}
+
+#t2{
+    background-position-y: -450px;
+}
+#t3{
+    background-position-y: -263px;
+}
+#t4{
+    background-position-y: -356px;
+}
+#t5{
+    background-position-y: -541px;
+}
+#t6{
+    background-position-y: -634px;
+}
+
